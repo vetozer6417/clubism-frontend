@@ -1,0 +1,40 @@
+{
+    "LocaleSwitcher": {
+      "label": "ไทย",
+      "locale": "{locale, select, th {ภาษาไทย} en {English} other {Unknown}}"
+    },
+    "HomePage": {
+      "events": {
+        "title": "อีเว้นท์",
+        "button": "ดูทั้งหมด"
+      },
+      "reservation": {
+        "title": "เมนู",
+        "button1": {
+          "title": "จองโต๊ะ",
+          "description": "รีบจองก่อนเต็ม"
+        },
+        "button2": {
+          "title": "เครื่องดื่ม",
+          "description": "คอแห้งไหม?"
+        },
+        "button3": {
+          "title": "อาหาร",
+          "description": "หิวหรือเปล่า?"
+        }
+      },
+      "profile": {
+        "title": "โปรไฟล์",
+        "button1": {
+          "title": "การจอง<br></br>ของฉัน"
+        },
+        "button2": {
+          "title": "โลเคชั่น"
+        }
+      }
+    },
+    "Back": {
+      "back": "กลับ"
+    },
+    "NoData": "ไม่พบข้อมูล"
+  }

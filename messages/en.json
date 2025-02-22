@@ -1,0 +1,42 @@
+{
+    "LocaleSwitcher": {
+      "label": "English",
+      "locale": "{locale, select, th {ภาษาไทย} en {English} other {Unknown}}"
+    },
+    "HomePage": {
+      "events": {
+        "title": "Upcoming Events",
+        "button": "View All"
+      },
+      "reservation": {
+        "title": "Reservation",
+        "button1": {
+          "title": "Reserve a Table",
+          "description": "Hurry before sold out."
+        },
+        "button2": {
+          "title": "Drinks",
+          "description": "Thristy?"
+        },
+        "button3": {
+          "title": "Foods",
+          "description": "Are you starving?"
+        }
+      },
+      "profile": {
+        "title": "Profile",
+        "button1": {
+          "title": "Reservation",
+          "description": "My table."
+        },
+        "button2": {
+          "title": "Location",
+          "description": "How to get here?"
+        }
+      }
+    },
+    "Back": {
+      "back": "Back"
+    },
+    "NoData": "No data"
+  }

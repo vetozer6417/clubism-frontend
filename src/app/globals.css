@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Inter', 'IBM Plex Sans Thai', sans-serif;
+  touch-action: manipulation;
 }
 
 @layer base {

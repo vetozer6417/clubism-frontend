@@ -1,14 +1,19 @@
+import { Link } from "@/i18n/routing";
+
 function SwiperCard({ 
     imageUrl,
     date,
-    title 
+    title,
+    link 
 } : { 
     imageUrl : string,
     date: string,
-    title: string 
+    title: string,
+    link: string 
 }) {
     return (
-        <div 
+        <Link
+            href={link} 
             className="w-[200px] h-[200px] 
             text-white
             flex items-end justify-end
@@ -19,15 +24,15 @@ function SwiperCard({
         >
             <div className="
                 flex flex-col 
-                w-full
-                z-10 px-2 py-1
-                bg-white/20 border-t border-white/20
-                backdrop-blur-sm"
+                text-zinc-200
+                w-full items-end justify-end
+                z-10 px-3 pb-1 h-[80px]
+                bg-gradient-to-t from-black to-transparent"
             >
-                <p className="font-medium">{title}</p>
+                <p className="font-semibold">{title}</p>
                 <p className="text-sm">{date}</p>
             </div>
-        </div>
+        </Link>
     );
 }
 

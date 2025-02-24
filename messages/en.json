@@ -15,21 +15,10 @@
           "description": "Hurry before sold out."
         },
         "button2": {
-          "title": "Drinks",
-          "description": "Thristy?"
+          "title": "My Reservation",
+          "description": "Booked your table?"
         },
         "button3": {
-          "title": "Foods",
-          "description": "Are you starving?"
-        }
-      },
-      "profile": {
-        "title": "Profile",
-        "button1": {
-          "title": "Reservation",
-          "description": "My table."
-        },
-        "button2": {
           "title": "Location",
           "description": "How to get here?"
         }
@@ -38,5 +27,60 @@
     "Back": {
       "back": "Back"
     },
-    "NoData": "No data"
+    "NoData": "No data",
+    "Events": {
+      "title": "Upcoming Events"
+    },
+    "EventId": {
+      "button": "Buy Tickets"
+    },
+    "Reserve": {
+      "title": "Reserve a Table",
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name",
+        "error1": "Too short",
+        "error2": "Too long"
+      },
+      "amount": {
+        "label": "Amount",
+        "placeholder": "Number of guests",
+        "error1": "Required",
+        "error2": "Numbers only",
+        "error3": "Minimum 1 guest",
+        "error4": "Maximum 15 guests"
+      },
+      "date": {
+        "label": "Date",
+        "placeholder": "Choose a night",
+        "error": "Required"
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "description": "Thai mobile number (10 digits, starting with 0)",
+        "error": "Required"
+      },
+      "note": {
+        "label": "Note",
+        "placeholder": "Special request (If so...)",
+        "error": "Too long, maximum 100 characters"
+      },
+      "submit": "Book Now",
+      "alert": {
+        "title": "Confirm Reservation?",
+        "description1": "Once confirmed, the reservation cannot be changed.",
+        "description2": "Must arrive before {time}",
+        "cancel": "Cancel",
+        "continue": "Confirm",
+        "amount_unit": "guests",
+        "phoneNumber": "Phone"
+      }
+    },
+
+    "Users": {
+      "Reservation": {
+        
+      }
+    }
   }

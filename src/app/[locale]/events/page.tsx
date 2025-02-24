@@ -1,7 +1,7 @@
 import Back from "@/components/layouts/Back";
 import Empty from "@/components/layouts/Empty";
 import { Link } from "@/i18n/routing";
-import { useFormatter } from "next-intl";
+import { useFormatter, useTranslations } from "next-intl";
 import Image from "next/image";
 
 const mockEvents = [
@@ -38,6 +38,7 @@ const mockEvents = [
 ]
 
 function EventsPage() {
+    const t = useTranslations('Events')
     const format = useFormatter()
     
     return (
@@ -45,7 +46,7 @@ function EventsPage() {
             <nav className="flex flex-row items-center justify-between w-full">
                 <Back/>
                 <h1 className="text-2xl font-semibold">
-                    Upcoming Events
+                    {t('title')}
                 </h1>
             </nav>
             {/* <Empty/> */}

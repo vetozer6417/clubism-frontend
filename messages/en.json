@@ -27,7 +27,6 @@
     "Back": {
       "back": "Back"
     },
-    "NoData": "No data",
     "Events": {
       "title": "Upcoming Events"
     },
@@ -80,7 +79,29 @@
 
     "Users": {
       "Reservation": {
-        
+        "title": "My Reservation",
+        "tab_usable": "Usable",
+        "tab_expired": "Expired",
+        "status": {
+          "processing": "Processing",
+          "confirmed": "Confirmed",
+          "cancelled": "Cancelled",
+          "released": "Table Released"
+        },
+        "view": "View Ticket",
+        "name": "Name",
+        "person": "Amount",
+        "person_unit": "{count, plural, one {person} other {people}}",
+        "table": "Table",
+        "date": {
+          "today": "Today",
+          "tomorrow": "Tomorrow"
+        },
+        "bookedDate": "Date",
+        "phoneNumber": "Phone Number",
+        "note": "Note",
+        "drawerTitle": "Reservation Details",
+        "reservationId": "Reservation #{id}"
       }
     }
   }

@@ -25,7 +25,7 @@ import { Calendar } from "@/components/ui/calendar";
 import { cn } from "@/lib/utils";
 import { useFormatter, useTranslations } from 'next-intl';
 import { useState } from 'react';
-import formatPhoneNumber from '@/lib/format';
+import { formatPhoneNumber} from '@/lib/format';
 
 function ReservePage() {
     const t = useTranslations('Reserve')

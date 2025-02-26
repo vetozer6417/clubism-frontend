@@ -27,7 +27,6 @@
     "Back": {
       "back": "กลับ"
     },
-    "NoData": "ไม่พบข้อมูล",
     "Events": {
       "title": "อีเว้นท์"
     },
@@ -76,5 +75,33 @@
         "amount_unit": "คน",
         "phoneNumber": "เบอร์โทรศัพท์"
       }
+  },
+
+  "Users": {
+    "Reservation": {
+      "title": "การจองโต๊ะของฉัน",
+      "tab_usable": "ใช้งานได้",
+      "tab_expired": "หมดอายุ",
+      "status": {
+        "processing": "กำลังจัดโต๊ะ",
+        "confirmed": "จองสำเร็จ",
+        "cancelled": "ยกเลิก",
+        "released": "ปล่อยโต๊ะ"
+      },
+      "view": "ดูรายละเอียด",
+      "name": "ชื่อ",
+      "person": "จำนวน",
+      "person_unit": "{count, plural, one {คน} other {คน}}",
+      "table": "โต๊ะ",
+      "date": {
+        "today": "วันนี้",
+        "tomorrow": "วันพรุ่งนี้"
+      },
+      "bookedDate": "วันที่จอง",
+      "phoneNumber": "เบอร์โทรศัพท์",
+      "note": "หมายเหตุ",
+      "drawerTitle": "รายละเอียดการจอง",
+      "reservationId": "รหัสการจอง #{id}"
     }
   }
+}

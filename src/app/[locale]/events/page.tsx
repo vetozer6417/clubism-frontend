@@ -55,7 +55,9 @@ function EventsPage() {
                     prefetch
                     href={`/events/${event.id}`} 
                     key={event.id} 
-                    className="flex items-end relative w-full aspect-square rounded-lg overflow-hidden"
+                    className="flex items-end relative w-full aspect-square rounded-lg overflow-hidden
+                    border border-zinc-800
+                    "
                 >
                     <Image 
                         src={event.imageUrl}
@@ -65,11 +67,10 @@ function EventsPage() {
                         className="rounded-lg"
                     />
                     <div className="
-                        flex flex-col 
+                        flex flex-col justify-end
                         w-full
-                        z-10 px-2 py-2
-                        bg-white/20 border-t border-white/20
-                        backdrop-blur-sm"
+                        z-10 h-[150px] pb-4 px-4
+                        bg-gradient-to-t from-black to-transparent"
                     >
                         <p className="text-lg truncate font-semibold">{event.title}</p>
                         <p className="text-sm">

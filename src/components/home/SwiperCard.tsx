@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/routing";
+import { useFormatter } from "next-intl";
 
 function SwiperCard({ 
     imageUrl,
@@ -11,6 +12,8 @@ function SwiperCard({
     title: string,
     link: string 
 }) {
+    const localeFormat = useFormatter()
+
     return (
         <Link
             href={link} 
@@ -29,8 +32,15 @@ function SwiperCard({
                 z-10 px-3 pb-1 h-[80px]
                 bg-gradient-to-t from-black to-transparent"
             >
-                <p className="font-semibold">{title}</p>
-                <p className="text-sm">{date}</p>
+                <p className="font-semibold text-sm truncate">{title}</p>
+                <p className="text-xs">
+                    {localeFormat.dateTime(new Date(date), {
+                        weekday: 'long',
+                        day: 'numeric',
+                        month: 'long',
+                        year: 'numeric'
+                    })}
+                </p>
             </div>
         </Link>
     );

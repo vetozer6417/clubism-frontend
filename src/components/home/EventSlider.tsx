@@ -18,13 +18,13 @@ function EventSlider() {
                 }}
             >
                 <SwiperSlide style={{ width: '200px' }}>
-                    <SwiperCard imageUrl='/slider-1.jpg' date='11 Feb 2025' title='MIRR' link='/events/123123'/>
+                    <SwiperCard imageUrl='/slider-1.jpg' date='2025-02-27T17:00:00.000Z' title='MIRR' link='/events/123123'/>
                 </SwiperSlide>
                 <SwiperSlide style={{ width: '200px' }}>
-                    <SwiperCard imageUrl='/slider-2.jpg' date='03 Mar 2025' title='POLYCAT' link='/events/123123'/>
+                    <SwiperCard imageUrl='/slider-2.jpg' date='2025-03-14T17:00:00.000Z' title='POLYCAT' link='/events/123123'/>
                 </SwiperSlide>
                 <SwiperSlide style={{ width: '200px' }}>
-                    <SwiperCard imageUrl='/slider-3.jpg' date='16 Mar 2025' title='CERTIFIED_V10' link='/events/123123'/>
+                    <SwiperCard imageUrl='/slider-3.jpg' date='2025-04-22T17:00:00.000Z' title='CERTIFIED_V10' link='/events/123123'/>
                 </SwiperSlide>
             </Swiper>
         </div>
